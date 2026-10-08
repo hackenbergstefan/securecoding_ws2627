@@ -46,17 +46,17 @@
 ### Installation of required Python packages
 
 1. Clone this repository somewhere
-   (In the following we will assume that the location is `~/work/ws2526/securecoding_ws2526`):
+   (In the following we will assume that the location is `~/work/ws2627/securecoding_ws2627`):
 
    ```sh
-   cd ~/work/ws2526
-   git clone https://github.com/hackenbergstefan/securecoding_ws2526.git
+   cd ~/work/ws2627
+   git clone https://github.com/hackenbergstefan/securecoding_ws2627.git
    ```
 
 2. Create virtual environment and activate it:
 
    ```sh
-   cd ~/work/ws2526/securecoding_ws2526
+   cd ~/work/ws2627/securecoding_ws2627
    python -m venv .venv
    # On Unix like:
    . .venv/bin/activate
@@ -78,16 +78,16 @@ Create a file `.env` inside the repository with the following content:
 Windows:
 
 ```env
-# C:\work\ws2526\securecoding_ws2526\.env
+# C:\work\ws2627\securecoding_ws2627\.env
 PATH=C:\cw\cw\usr\bin;C:\cw\cw\home\portable\armgcc\bin;C:\cw\cw\home\portable\avrgcc\bin;$env["PATH"]
-CWFIRMWAREPATH=C:\cw\cw\home\portable\chipwhisperer\firmware\mcu
+CWFIRMWAREPATH=C:\cw\cw\home\portable\chipwhisperer\hardware\victims\firmware
 ```
 
 Unix like (Assume your username is `stefan`):
 
 ```env
-# /home/stefan/work/ws2526/securecoding_ws2526/.env
-CWFIRMWAREPATH=/home/stefan/work/chipwhisperer/firmware/mcu
+# /home/stefan/work/ws2627/securecoding_ws2627/.env
+CWFIRMWAREPATH=/home/stefan/work/chipwhisperer/hardware/victims/firmware
 ```
 
 Reload VSCode (`Ctrl+Shift+P -> "Developer: Reload Window"`)
